@@ -7,4 +7,6 @@ const db = mysql.createConnection({
   database: "blog",
 });
 
+console.log("Connected to database");
+
 module.exports = db;
